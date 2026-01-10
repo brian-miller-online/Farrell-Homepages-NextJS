@@ -60,6 +60,13 @@ export default function Header() {
               Services
             </a>
             <a 
+              href="/locations" 
+              className="text-white font-sans text-base hover:text-white/80 transition-colors"
+              data-testid="link-locations"
+            >
+              Areas
+            </a>
+            <a 
               href="/contact" 
               className="text-white font-sans text-base hover:text-white/80 transition-colors"
               data-testid="link-contact"
@@ -142,6 +149,14 @@ export default function Header() {
               data-testid="link-services-mobile"
             >
               Services
+            </a>
+            <a 
+              href="/locations" 
+              className="text-text-gray font-sans text-lg py-2 hover:text-navy transition-colors"
+              onClick={() => setMobileMenuOpen(false)}
+              data-testid="link-locations-mobile"
+            >
+              Areas
             </a>
             <a 
               href="/contact" 
