@@ -24,22 +24,22 @@ export default function Hero() {
       data-testid="section-hero"
     >
       <div className="flex flex-col md:flex-row min-h-[calc(100vh-60px)] md:min-h-[calc(100vh-70px)]">
-        <div className="w-full md:w-[60%] bg-warm-white px-6 sm:px-8 lg:px-12 xl:px-16 pt-6 md:pt-6 pb-8 flex flex-col justify-start">
+        <div className="w-full md:w-[60%] bg-warm-white px-6 sm:px-8 lg:px-12 xl:px-16 pt-4 md:pt-4 pb-4 flex flex-col justify-start">
           <div className="max-w-xl">
 
             <h1 
-              className="font-serif text-[26px] md:text-[32px] lg:text-[35px] leading-tight font-bold text-navy mb-4 md:mb-3"
+              className="font-serif text-[26px] md:text-[32px] lg:text-[35px] leading-tight font-bold text-navy mb-2 md:mb-2"
               data-testid="text-hero-headline"
             >I've Painted Over 200 Lake Houses And Homes In Northeast Indiana.</h1>
             
             <p 
-              className="font-sans text-lg md:text-xl text-text-gray mb-4 md:mb-3 leading-relaxed font-normal"
+              className="font-sans text-lg md:text-xl text-text-gray mb-2 md:mb-2 leading-relaxed font-normal"
               data-testid="text-hero-subheadline"
             >
               Homeowners don't just hire me once. They keep calling me back.
             </p>
             
-            <ul className="font-sans text-base md:text-lg text-text-gray mb-6 md:mb-4 space-y-1">
+            <ul className="font-sans text-base md:text-lg text-text-gray mb-4 md:mb-3 space-y-0.5">
               <li>• Exterior Painting</li>
               <li>• Deck & Fence Staining</li>
               <li>• Interior Painting</li>
@@ -47,7 +47,7 @@ export default function Hero() {
 
             <Button 
               size="lg"
-              className="bg-gold text-navy font-sans font-semibold text-base px-6 py-3 border-gold w-fit mb-2"
+              className="bg-gold text-navy font-sans font-semibold text-base px-6 py-3 border-gold w-fit mb-1"
               data-testid="button-quote-hero"
               onClick={() => openQuoteForm()}
             >
@@ -56,15 +56,15 @@ export default function Hero() {
 
             <a 
               href="tel:260-909-0717"
-              className="font-sans text-navy hover:text-navy/80 transition-colors block mb-3"
+              className="font-sans text-navy hover:text-navy/80 transition-colors block mb-2"
               data-testid="link-call-hero"
             >
               Or call Joe direct: <span className="font-semibold">(260) 909-0717</span>
             </a>
 
             {/* Compact Google Review Box */}
-            <div className="bg-white border border-gray-200 rounded-lg p-3 mb-2 max-w-md shadow-sm">
-              <div className="flex items-center gap-2 mb-2">
+            <div className="bg-white border border-gray-200 rounded-lg p-2.5 mb-2 max-w-md shadow-sm">
+              <div className="flex items-center gap-2 mb-1.5">
                 <GoogleLogo />
                 <span className="text-xs font-semibold text-gray-700">Google</span>
                 <div className="flex items-center gap-0.5">
@@ -77,21 +77,21 @@ export default function Hero() {
               <p className="text-sm text-gray-800 leading-snug">
                 "Joe does great work! Used him on several projects... always goes above and beyond!"
               </p>
-              <p className="text-xs text-gray-600 mt-1">Mike W.</p>
+              <p className="text-xs text-gray-600 mt-0.5">Mike W.</p>
             </div>
 
-            {/* Trust badges in one line */}
-            <div className="flex items-center gap-2 md:gap-3 text-sm md:text-base">
+            {/* Trust badges in one line - fixed to prevent wrapping */}
+            <div className="flex items-center gap-2 md:gap-3 text-sm md:text-base flex-wrap md:flex-nowrap">
               <div className="flex items-center gap-1">
                 <span className="font-serif text-base md:text-lg font-bold text-navy">Insured</span>
               </div>
               <span className="text-text-gray/30">|</span>
-              <div className="flex items-center gap-1">
+              <div className="flex items-center gap-1 whitespace-nowrap">
                 <span className="font-serif text-base md:text-lg font-bold text-navy">4.9</span>
-                <span className="font-sans text-xs md:text-sm text-text-gray">Stars on Google</span>
+                <span className="font-sans text-xs md:text-sm text-text-gray whitespace-nowrap">Stars on Google</span>
               </div>
               <span className="text-text-gray/30">|</span>
-              <div className="flex items-center gap-1">
+              <div className="flex items-center gap-1 whitespace-nowrap">
                 <span className="font-serif text-sm md:text-base font-bold text-navy whitespace-nowrap">5-Year</span>
                 <span className="font-sans text-[11px] md:text-xs text-text-gray whitespace-nowrap">Workmanship Guarantee</span>
                 <span className="font-sans text-[9px] md:text-[10px] text-text-gray italic whitespace-nowrap">(One of the longest in the area)</span>
