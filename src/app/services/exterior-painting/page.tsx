@@ -36,23 +36,49 @@ export default function ExteriorPainting() {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "serviceType": "Exterior Painting",
+    "serviceType": "Exterior House Painting",
+    "name": "Exterior Painting Services",
     "provider": {
-      "@type": "LocalBusiness",
+      "@type": "HomeAndConstructionBusiness",
       "name": "Farrell's Painting",
+      "@id": "https://www.farrellspainting.com/#business",
       "telephone": "+1-260-909-0717",
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Fort Wayne",
+        "addressLocality": "Waterloo",
         "addressRegion": "IN",
+        "postalCode": "46793",
         "addressCountry": "US"
       }
     },
-    "areaServed": {
-      "@type": "State",
-      "name": "Indiana"
+    "areaServed": [
+      {"@type": "City", "name": "Fort Wayne", "containedInPlace": {"@type": "State", "name": "Indiana"}},
+      {"@type": "City", "name": "Angola", "containedInPlace": {"@type": "State", "name": "Indiana"}},
+      {"@type": "City", "name": "Auburn", "containedInPlace": {"@type": "State", "name": "Indiana"}},
+      {"@type": "Place", "name": "Northeast Indiana"},
+      {"@type": "Place", "name": "Hamilton Lake, Indiana"},
+      {"@type": "Place", "name": "Lake James, Indiana"}
+    ],
+    "description": "Professional exterior house painting services in Fort Wayne and Northeast Indiana. Expert surface preparation, premium Sherwin-Williams paints, and a 5-year workmanship warranty. Owner-operated with 20+ years experience.",
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "USD"
+      }
     },
-    "description": "Professional exterior house painting services in Fort Wayne and Northeast Indiana. Expert preparation, premium Sherwin-Williams paints, 5-year warranty."
+    "termsOfService": "https://www.farrellspainting.com/warranty",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Exterior Painting Services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "House Exterior Painting"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Siding Painting"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Trim Painting"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Garage Painting"}}
+      ]
+    }
   };
 
   return (

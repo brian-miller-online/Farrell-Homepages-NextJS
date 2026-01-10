@@ -29,14 +29,46 @@ export default function InteriorPainting() {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "serviceType": "Interior Painting",
+    "serviceType": "Interior House Painting",
+    "name": "Interior Painting Services",
     "provider": {
-      "@type": "LocalBusiness",
+      "@type": "HomeAndConstructionBusiness",
       "name": "Farrell's Painting",
-      "telephone": "+1-260-909-0717"
+      "@id": "https://www.farrellspainting.com/#business",
+      "telephone": "+1-260-909-0717",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Waterloo",
+        "addressRegion": "IN",
+        "postalCode": "46793",
+        "addressCountry": "US"
+      }
     },
-    "areaServed": { "@type": "State", "name": "Indiana" },
-    "description": "Professional interior painting services in Fort Wayne and Northeast Indiana. Clean, precise work with zero mess. Expert color consultation."
+    "areaServed": [
+      {"@type": "City", "name": "Fort Wayne", "containedInPlace": {"@type": "State", "name": "Indiana"}},
+      {"@type": "City", "name": "Angola", "containedInPlace": {"@type": "State", "name": "Indiana"}},
+      {"@type": "Place", "name": "Northeast Indiana"}
+    ],
+    "description": "Professional interior painting services in Fort Wayne and Northeast Indiana. Clean, precise work with zero mess. Expert color consultation. 5-year workmanship warranty.",
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "USD"
+      }
+    },
+    "termsOfService": "https://www.farrellspainting.com/warranty",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Interior Painting Services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Wall Painting"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ceiling Painting"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Trim and Molding Painting"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Cabinet Painting"}}
+      ]
+    }
   };
 
   return (

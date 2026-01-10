@@ -1,13 +1,85 @@
-"use client";
-
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import QuoteFormModal from '@/components/QuoteFormModal';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "5-Year Workmanship Warranty | Farrell's Painting",
+  description: "Farrell's Painting offers one of the longest warranties in Northeast Indiana - 5 full years. If our workmanship fails, we'll fix it. No excuses.",
+};
+
+// FAQ Schema for AEO optimization
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does Farrell's Painting warranty cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our 5-year workmanship warranty covers peeling, blistering, chipping, or cracking of paint due to our workmanship on all interior painted surfaces and exterior vertical surfaces. We provide all labor and materials for valid warranty repairs at no cost."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Farrell's Painting warranty cover decks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Horizontal surfaces like decks, railings, porch floors, and stairs are not covered because they're exposed to standing water, UV, foot traffic, and freeze-thaw cycles. No professional painting contractor warranties horizontal surfaces. We offer maintenance services for these surfaces every 1-3 years."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long is Farrell's Painting warranty?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "5 years from project completion - one of the longest warranties offered by any painting contractor in Northeast Indiana. Most contractors only offer 2-3 year warranties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is NOT covered by the warranty?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The warranty does not cover: horizontal surfaces (decks, railings, porch floors), normal wear and tear, damage from severe weather or natural disasters, substrate or structural issues, damage from pressure washing or harsh chemicals, mold or mildew growth, work performed by other contractors, and paint product defects (covered by manufacturer warranty)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I make a warranty claim with Farrell's Painting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Simply call us at (260) 909-0717. We'll inspect the issue and if it's covered under warranty, we'll fix it at no cost. No runaround, no excuses. Repairs are scheduled based on weather conditions and crew availability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What do I need to do to maintain my warranty?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Four simple things: 1) Pay your invoice in full per contract terms, 2) Keep a copy of your contract and proof of payment, 3) Notify us in writing after discovering any defect, 4) Make the property accessible for inspection and repairs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What paint does Farrell's Painting use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We use Sherwin-Williams products because when you're guaranteeing work for 5 years, you don't cheap out on materials. In 20+ years, we've never had to file a manufacturer defect claim."
+      }
+    }
+  ]
+};
 
 export default function WarrantyPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <Header />
 
       <div className="min-h-screen bg-white">
@@ -325,7 +397,7 @@ export default function WarrantyPage() {
             
             <div className="bg-slate-50 rounded-xl p-6 text-center border border-slate-200 mb-6">
               <p className="text-xl font-bold text-slate-900 mb-2">Farrell's Painting</p>
-              <p className="text-slate-600">Waterloo, IN</p>
+              <p className="text-slate-600">Waterloo, IN 46793</p>
               <div className="mt-3">
                 <p className="text-slate-700"><span className="font-medium">Phone:</span> (260) 909-0717</p>
               </div>

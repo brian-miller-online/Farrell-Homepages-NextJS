@@ -13,13 +13,46 @@ export default function DeckRefinishing() {
     "@context": "https://schema.org",
     "@type": "Service",
     "serviceType": "Deck Staining and Refinishing",
+    "name": "Deck and Fence Staining Services",
     "provider": {
-      "@type": "LocalBusiness",
+      "@type": "HomeAndConstructionBusiness",
       "name": "Farrell's Painting",
-      "telephone": "+1-260-909-0717"
+      "@id": "https://www.farrellspainting.com/#business",
+      "telephone": "+1-260-909-0717",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Waterloo",
+        "addressRegion": "IN",
+        "postalCode": "46793",
+        "addressCountry": "US"
+      }
     },
-    "areaServed": { "@type": "State", "name": "Indiana" },
-    "description": "Expert deck staining and fence refinishing in Fort Wayne and Northeast Indiana. Restore and protect your outdoor spaces with premium stains."
+    "areaServed": [
+      {"@type": "City", "name": "Fort Wayne", "containedInPlace": {"@type": "State", "name": "Indiana"}},
+      {"@type": "City", "name": "Angola", "containedInPlace": {"@type": "State", "name": "Indiana"}},
+      {"@type": "Place", "name": "Northeast Indiana"},
+      {"@type": "Place", "name": "Hamilton Lake, Indiana"},
+      {"@type": "Place", "name": "Lake James, Indiana"}
+    ],
+    "description": "Expert deck staining and fence refinishing in Fort Wayne and Northeast Indiana. Restore and protect your outdoor spaces with premium stains. Lake house specialists.",
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "USD"
+      }
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Deck and Fence Services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Deck Staining"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Deck Refinishing"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Fence Staining"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Deck Sealing"}}
+      ]
+    }
   };
 
   const deckProjects = [

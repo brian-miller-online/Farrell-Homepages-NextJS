@@ -44,17 +44,48 @@ export default function LakeHousePainting() {
     "@context": "https://schema.org",
     "@type": "Service",
     "serviceType": "Lake House Painting",
+    "name": "Lake House Painting Services",
     "provider": {
-      "@type": "LocalBusiness",
+      "@type": "HomeAndConstructionBusiness",
       "name": "Farrell's Painting",
-      "telephone": "+1-260-909-0717"
+      "@id": "https://www.farrellspainting.com/#business",
+      "telephone": "+1-260-909-0717",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Waterloo",
+        "addressRegion": "IN",
+        "postalCode": "46793",
+        "addressCountry": "US"
+      }
     },
     "areaServed": [
-      { "@type": "Place", "name": "Hamilton Lake, Indiana" },
-      { "@type": "Place", "name": "Lake James, Indiana" },
-      { "@type": "State", "name": "Indiana" }
+      {"@type": "Place", "name": "Hamilton Lake, Indiana"},
+      {"@type": "Place", "name": "Lake James, Indiana"},
+      {"@type": "Place", "name": "Jimerson Lake, Indiana"},
+      {"@type": "Place", "name": "Crooked Lake, Indiana"},
+      {"@type": "City", "name": "Angola", "containedInPlace": {"@type": "State", "name": "Indiana"}},
+      {"@type": "Place", "name": "Northeast Indiana"}
     ],
-    "description": "Specialized lake house painting for Hamilton Lake, Lake James, and Northeast Indiana. Weather-resistant finishes designed for waterfront properties."
+    "description": "Specialized lake house painting for Hamilton Lake, Lake James, Jimerson Lake, Crooked Lake, and Northeast Indiana. Weather-resistant finishes designed for waterfront properties. 200+ lake houses painted. 5-year workmanship warranty.",
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "USD"
+      }
+    },
+    "termsOfService": "https://www.farrellspainting.com/warranty",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Lake House Painting Services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Lake House Exterior Painting"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Lake House Interior Painting"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Dock Painting"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Waterfront Deck Staining"}}
+      ]
+    }
   };
 
   return (
