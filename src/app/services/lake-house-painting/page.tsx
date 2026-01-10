@@ -90,6 +90,10 @@ export default function LakeHousePainting() {
 
   return (
     <div className="min-h-screen bg-warm-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
       <Header />
       
       {/* Hero Section with Split Layout */}
