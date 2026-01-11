@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
+  // Remove output: "export" to use Vercel's native Next.js support
+  // This allows for better caching and performance optimization
   trailingSlash: true,
   images: {
+    // Use Cloudinary for image optimization instead of Next.js Image
     unoptimized: true,
-    // Allow Cloudinary images
     remotePatterns: [
       {
         protocol: 'https',
