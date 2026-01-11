@@ -3,7 +3,14 @@
 import { Button } from "@/components/ui/button";
 import { useQuoteForm } from "@/context/QuoteFormContext";
 import { Star } from "lucide-react";
-const heroImage = "/Farrells-painting-lake-house-1_1766774717727.png";
+import { getCloudinaryUrl } from "@/lib/cloudinary";
+
+// Cloudinary optimized hero image - serves WebP/AVIF automatically
+const heroImagePublicId = "Farrell's Painting/Farrells-painting-lake-house-1_1766774717727";
+
+// Generate responsive image URLs
+const heroImageDesktop = getCloudinaryUrl(heroImagePublicId, { width: 1200, height: 900, quality: 'auto', format: 'auto' });
+const heroImageMobile = getCloudinaryUrl(heroImagePublicId, { width: 800, height: 600, quality: 'auto', format: 'auto' });
 
 // Google "G" logo as inline SVG for credibility
 const GoogleLogo = () => (
@@ -101,11 +108,22 @@ export default function Hero() {
         </div>
 
         <div className="w-full md:w-[40%] h-[300px] md:h-auto md:mr-0 relative">
-          <img 
-            src={heroImage} 
-            alt="Beautiful lake house deck painted by Farrell's Painting"
-            className="w-full h-full object-cover"
-          />
+          {/* Optimized Cloudinary image with responsive srcset */}
+          <picture>
+            <source 
+              media="(min-width: 768px)" 
+              srcSet={heroImageDesktop}
+              type="image/webp"
+            />
+            <img 
+              src={heroImageMobile}
+              alt="Beautiful lake house deck painted by Farrell's Painting"
+              className="w-full h-full object-cover"
+              loading="eager"
+              fetchPriority="high"
+              decoding="async"
+            />
+          </picture>
           
           {/* Customer Reviews Overlay */}
           <div className="absolute bottom-4 right-4 left-4 md:bottom-8 md:right-8 md:left-8 bg-white/95 backdrop-blur-sm rounded-lg shadow-xl p-4 md:p-5">

@@ -3,6 +3,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import QuoteFormModal from '@/components/QuoteFormModal';
 import type { Metadata } from 'next';
+import { getCloudinaryUrl } from '@/lib/cloudinary';
 
 export const metadata: Metadata = {
   title: "Deck Staining & Refinishing Fort Wayne",
@@ -137,7 +138,7 @@ export default function DeckRefinishing() {
               <div className="relative">
                 <div className="bg-white rounded-lg shadow-2xl overflow-hidden">
                   <img 
-                    src="/portfolio/Joeafter1.jpg" 
+                    src={getCloudinaryUrl("Farrell's Painting/portfolio/Joeafter1", { width: 800, quality: 'auto', format: 'auto' })} 
                     alt="Beautifully refinished deck showing expert craftsmanship"
                     className="w-full h-[400px] object-cover"
                   />
@@ -203,7 +204,7 @@ export default function DeckRefinishing() {
                     BEFORE
                   </div>
                   <img 
-                    src="/portfolio/Joebefore7.jpg" 
+                    src={getCloudinaryUrl("Farrell's Painting/portfolio/Joebefore7", { width: 600, quality: 'auto', format: 'auto' })} 
                     alt="Weathered, gray deck before refinishing"
                     className="w-full h-full object-cover"
                   />
@@ -213,7 +214,7 @@ export default function DeckRefinishing() {
                     AFTER
                   </div>
                   <img 
-                    src="/portfolio/Joeafter7.jpg" 
+                    src={getCloudinaryUrl("Farrell's Painting/portfolio/Joeafter7", { width: 600, quality: 'auto', format: 'auto' })} 
                     alt="Beautiful refinished deck with rich stain"
                     className="w-full h-full object-cover"
                   />
@@ -321,7 +322,7 @@ export default function DeckRefinishing() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <img 
-                  src="/portfolio/Joeafter1.jpg" 
+                  src={getCloudinaryUrl("Farrell's Painting/portfolio/Joeafter1", { width: 800, quality: 'auto', format: 'auto' })} 
                   alt="Close-up of refinished deck showing smooth, even finish"
                   className="rounded-lg shadow-lg w-full"
                 />

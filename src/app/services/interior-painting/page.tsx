@@ -3,6 +3,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import QuoteFormModal from '@/components/QuoteFormModal';
 import type { Metadata } from 'next';
+import { getCloudinaryUrl } from '@/lib/cloudinary';
 
 export const metadata: Metadata = {
   title: "Interior House Painting Fort Wayne | Clean, Precise Work",
@@ -14,15 +15,15 @@ export default function InteriorPainting() {
   const interiorProjects = [
     {
       id: 3,
-      before: "/portfolio/Joebefore3.jpg",
-      after: "/portfolio/Joeafter3.jpg",
+      before: getCloudinaryUrl("Farrell's Painting/portfolio/Joebefore3", { width: 600, quality: 'auto', format: 'auto' }),
+      after: getCloudinaryUrl("Farrell's Painting/portfolio/Joeafter3", { width: 600, quality: 'auto', format: 'auto' }),
       title: "Lake House Interior - Sunroom Transformation",
       location: "Northeast Indiana Lake"
     },
     {
       id: 4,
-      before: "/portfolio/Joebefore4.jpg",
-      after: "/portfolio/Joeafter4.jpg",
+      before: getCloudinaryUrl("Farrell's Painting/portfolio/Joebefore4", { width: 600, quality: 'auto', format: 'auto' }),
+      after: getCloudinaryUrl("Farrell's Painting/portfolio/Joeafter4", { width: 600, quality: 'auto', format: 'auto' }),
       title: "Lake House Living Space with Detailed Spindle Work",
       location: "Waterfront Property"
     }
@@ -115,7 +116,7 @@ export default function InteriorPainting() {
               <div className="relative">
                 <div className="bg-white rounded-lg shadow-2xl overflow-hidden">
                   <img 
-                    src="/services/interior-spindles.jpg" 
+                    src={getCloudinaryUrl("Farrell's Painting/services/interior-spindles", { width: 800, quality: 'auto', format: 'auto' })} 
                     alt="Hand-painted spindles and railings showing meticulous detail work"
                     className="w-full h-[400px] object-cover"
                   />
