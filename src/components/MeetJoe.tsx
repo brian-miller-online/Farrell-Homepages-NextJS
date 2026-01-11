@@ -2,7 +2,8 @@
 
 import { Button } from "@/components/ui/button";
 import { useQuoteForm } from "@/context/QuoteFormContext";
-const vanImage = "/Farrell's-Painting-Van_1766778063353.jpg";
+// Cloudinary URL with auto-format and quality optimization
+const vanImage = "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_700/v1/Farrell's%20Painting/Farrell's-Painting-Van_1766778063353";
 
 export default function MeetJoe() {
   const { openQuoteForm } = useQuoteForm();
