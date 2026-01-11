@@ -3,35 +3,38 @@
 import { useState } from 'react';
 import Link from 'next/link';
 
+// Cloudinary base URL for optimized images
+const cloudinaryBase = "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio";
+
 const projects = [
   {
     id: 11,
-    before: "/portfolio/Joebefore11.jpg",
-    after: "/portfolio/Joeafter11.jpg",
+    before: `${cloudinaryBase}/Joebefore11`,
+    after: `${cloudinaryBase}/Joeafter11`,
     title: "Complete Exterior Transformation",
     location: "Northeast Indiana",
     type: "Exterior Painting"
   },
   {
     id: 1,
-    before: "/portfolio/Joebefore1.jpg",
-    after: "/portfolio/Joeafter1.jpg",
+    before: `${cloudinaryBase}/Joebefore1`,
+    after: `${cloudinaryBase}/Joeafter1`,
     title: "Deck Refinishing",
     location: "Lake House Property",
     type: "Deck Staining"
   },
   {
     id: 3,
-    before: "/portfolio/Joebefore3.jpg",
-    after: "/portfolio/Joeafter3.jpg",
+    before: `${cloudinaryBase}/Joebefore3`,
+    after: `${cloudinaryBase}/Joeafter3`,
     title: "Lake House Sunroom",
     location: "Hamilton Lake Area",
     type: "Interior Painting"
   },
   {
     id: 6,
-    before: "/portfolio/Joebefore6.jpg",
-    after: "/portfolio/Joeafter6.jpg",
+    before: `${cloudinaryBase}/Joebefore6`,
+    after: `${cloudinaryBase}/Joeafter6`,
     title: "Home Exterior Refresh",
     location: "Fort Wayne Area",
     type: "Exterior Painting"

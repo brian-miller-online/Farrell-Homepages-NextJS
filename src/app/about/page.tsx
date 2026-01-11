@@ -22,7 +22,7 @@ export default function AboutPage() {
             <div className="flex justify-center md:justify-end">
               <div className="w-80 h-80 md:w-96 md:h-96 rounded-lg overflow-hidden shadow-2xl">
                 <img 
-                  src="/joe-farrell-headshot.jpg" 
+                  src="https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_400/v1/Farrell's%20Painting/joe-farrell-headshot" 
                   alt="Joe Farrell, Owner of Farrell's Painting"
                   className="w-full h-full object-cover"
                 />
