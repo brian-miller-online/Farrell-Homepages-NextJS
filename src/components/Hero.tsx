@@ -106,6 +106,8 @@ export default function Hero() {
             src={heroImage} 
             alt="Beautiful lake house deck painted by Farrell's Painting"
             className="w-full h-full object-cover"
+            fetchpriority="high"
+            loading="eager"
           />
           
           {/* Customer Reviews Overlay */}
