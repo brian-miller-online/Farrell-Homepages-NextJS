@@ -3,7 +3,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import QuoteFormModal from '@/components/QuoteFormModal';
 import type { Metadata } from 'next';
-import { getCloudinaryUrl } from '@/lib/cloudinary';
 
 export const metadata: Metadata = {
   title: "Exterior House Painting Fort Wayne | 5-Year Warranty",
@@ -15,22 +14,22 @@ export default function ExteriorPainting() {
   const exteriorProjects = [
     {
       id: 11,
-      before: getCloudinaryUrl("Farrell's Painting/portfolio/Joebefore11", { width: 600, quality: 'auto', format: 'auto' }),
-      after: getCloudinaryUrl("Farrell's Painting/portfolio/Joeafter11", { width: 600, quality: 'auto', format: 'auto' }),
+      before: "/portfolio/Joebefore11.jpg",
+      after: "/portfolio/Joeafter11.jpg",
       title: "Complete Exterior Transformation",
       location: "Northeast Indiana"
     },
     {
       id: 6,
-      before: getCloudinaryUrl("Farrell's Painting/portfolio/Joebefore6", { width: 600, quality: 'auto', format: 'auto' }),
-      after: getCloudinaryUrl("Farrell's Painting/portfolio/Joeafter6", { width: 600, quality: 'auto', format: 'auto' }),
+      before: "/portfolio/Joebefore6.jpg",
+      after: "/portfolio/Joeafter6.jpg",
       title: "Home Exterior Refresh",
       location: "Residential Property"
     },
     {
       id: 5,
-      before: getCloudinaryUrl("Farrell's Painting/portfolio/Joebefore5", { width: 600, quality: 'auto', format: 'auto' }),
-      after: getCloudinaryUrl("Farrell's Painting/portfolio/Joeafter5", { width: 600, quality: 'auto', format: 'auto' }),
+      before: "/portfolio/Joebefore5.jpg",
+      after: "/portfolio/Joeafter5.jpg",
       title: "Siding & Trim Painting",
       location: "Fort Wayne Area"
     }

@@ -6,10 +6,6 @@ import QuoteFormModal from '@/components/QuoteFormModal';
 import { Button } from "@/components/ui/button";
 import { useQuoteForm } from "@/context/QuoteFormContext";
 import { Phone, Clock, MessageCircle, PaintBucket, Home, CheckCircle } from "lucide-react";
-import { getCloudinaryUrl } from "@/lib/cloudinary";
-
-// Cloudinary optimized Joe headshot
-const joeHeadshotUrl = getCloudinaryUrl("Farrell's Painting/joe-farrell-headshot", { width: 600, height: 600, quality: 'auto', format: 'auto', crop: 'fill', gravity: 'face' });
 
 export default function AboutPage() {
   const { openQuoteForm } = useQuoteForm();
@@ -26,10 +22,9 @@ export default function AboutPage() {
             <div className="flex justify-center md:justify-end">
               <div className="w-80 h-80 md:w-96 md:h-96 rounded-lg overflow-hidden shadow-2xl">
                 <img 
-                  src={joeHeadshotUrl} 
+                  src="/joe-farrell-headshot.jpg" 
                   alt="Joe Farrell, Owner of Farrell's Painting"
                   className="w-full h-full object-cover"
-                  loading="eager"
                 />
               </div>
             </div>

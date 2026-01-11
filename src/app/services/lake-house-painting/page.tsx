@@ -3,7 +3,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import QuoteFormModal from '@/components/QuoteFormModal';
 import type { Metadata } from 'next';
-import { getCloudinaryUrl } from '@/lib/cloudinary';
 
 export const metadata: Metadata = {
   title: "Lake House Painting Specialists | Hamilton Lake, Lake James",
@@ -15,29 +14,29 @@ export default function LakeHousePainting() {
   const lakeHouseProjects = [
     {
       id: 3,
-      before: getCloudinaryUrl("Farrell's Painting/portfolio/Joebefore3", { width: 600, quality: 'auto', format: 'auto' }),
-      after: getCloudinaryUrl("Farrell's Painting/portfolio/Joeafter3", { width: 600, quality: 'auto', format: 'auto' }),
+      before: "/portfolio/Joebefore3.jpg",
+      after: "/portfolio/Joeafter3.jpg",
       title: "Lake House Interior - Sunroom Transformation",
       location: "Northeast Indiana Lake"
     },
     {
       id: 4,
-      before: getCloudinaryUrl("Farrell's Painting/portfolio/Joebefore4", { width: 600, quality: 'auto', format: 'auto' }),
-      after: getCloudinaryUrl("Farrell's Painting/portfolio/Joeafter4", { width: 600, quality: 'auto', format: 'auto' }),
+      before: "/portfolio/Joebefore4.jpg",
+      after: "/portfolio/Joeafter4.jpg",
       title: "Lake House Living Space",
       location: "Waterfront Property"
     },
     {
       id: 9,
-      before: getCloudinaryUrl("Farrell's Painting/portfolio/Joebefore9", { width: 600, quality: 'auto', format: 'auto' }),
-      after: getCloudinaryUrl("Farrell's Painting/portfolio/Joeafter9", { width: 600, quality: 'auto', format: 'auto' }),
+      before: "/portfolio/Joebefore9.jpg",
+      after: "/portfolio/Joeafter9.jpg",
       title: "Lakefront Dock & Deck Railings",
       location: "Lake Property"
     },
     {
       id: 10,
-      before: getCloudinaryUrl("Farrell's Painting/portfolio/Joeafter10", { width: 600, quality: 'auto', format: 'auto' }),
-      after: getCloudinaryUrl("Farrell's Painting/portfolio/Joeafter10b", { width: 600, quality: 'auto', format: 'auto' }),
+      before: "/portfolio/Joeafter10.jpg",
+      after: "/portfolio/Joeafter10b.jpg",
       title: "Lakefront Retaining Wall - White Finish",
       location: "Waterfront Property"
     }
@@ -133,7 +132,7 @@ export default function LakeHousePainting() {
               <div className="relative">
                 <div className="bg-white rounded-lg shadow-2xl overflow-hidden">
                   <img 
-                    src={getCloudinaryUrl("Farrell's Painting/services/lake-house", { width: 800, quality: 'auto', format: 'auto' })} 
+                    src="/services/lake-house.jpg" 
                     alt="Beautiful lake house with professional paint job"
                     className="w-full h-[400px] object-cover"
                   />
@@ -166,7 +165,7 @@ export default function LakeHousePainting() {
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="h-48 overflow-hidden">
                   <img 
-                    src={getCloudinaryUrl("Farrell's Painting/problems/uv-damage", { width: 400, quality: 'auto', format: 'auto' })} 
+                    src="/problems/uv-damage.jpg" 
                     alt="UV damage on deck showing weathered wood"
                     className="w-full h-full object-cover"
                   />
@@ -181,7 +180,7 @@ export default function LakeHousePainting() {
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="h-48 overflow-hidden">
                   <img 
-                    src={getCloudinaryUrl("Farrell's Painting/problems/humidity-damage", { width: 400, quality: 'auto', format: 'auto' })} 
+                    src="/problems/humidity-damage.jpg" 
                     alt="Paint damage from high humidity and moisture"
                     className="w-full h-full object-cover"
                   />
@@ -196,7 +195,7 @@ export default function LakeHousePainting() {
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="h-48 overflow-hidden">
                   <img 
-                    src={getCloudinaryUrl("Farrell's Painting/problems/freeze-thaw-damage", { width: 400, quality: 'auto', format: 'auto' })} 
+                    src="/problems/freeze-thaw-damage.jpg" 
                     alt="Freeze-thaw damage showing cracked and damaged surfaces"
                     className="w-full h-full object-cover"
                   />
@@ -227,7 +226,7 @@ export default function LakeHousePainting() {
                     BEFORE
                   </div>
                   <img 
-                    src={getCloudinaryUrl("Farrell's Painting/portfolio/Joebefore9", { width: 600, quality: 'auto', format: 'auto' })} 
+                    src="/portfolio/Joebefore9.jpg" 
                     alt="Lake house dock and railings before painting"
                     className="w-full h-full object-cover"
                   />
@@ -237,7 +236,7 @@ export default function LakeHousePainting() {
                     AFTER
                   </div>
                   <img 
-                    src={getCloudinaryUrl("Farrell's Painting/portfolio/Joeafter9", { width: 600, quality: 'auto', format: 'auto' })} 
+                    src="/portfolio/Joeafter9.jpg" 
                     alt="Lake house dock and railings after professional painting"
                     className="w-full h-full object-cover"
                   />
