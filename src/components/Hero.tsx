@@ -3,7 +3,8 @@
 import { Button } from "@/components/ui/button";
 import { useQuoteForm } from "@/context/QuoteFormContext";
 import { Star } from "lucide-react";
-const heroImage = "/Farrells-painting-lake-house-1_1766774717727.png";
+// Cloudinary URL with auto-format and quality optimization
+const heroImage = "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_800/v1/Farrell's%20Painting/Farrells-painting-lake-house-1_1766774717727";
 
 // Google "G" logo as inline SVG for credibility
 const GoogleLogo = () => (
