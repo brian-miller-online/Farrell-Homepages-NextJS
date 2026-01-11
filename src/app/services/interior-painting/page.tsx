@@ -14,15 +14,15 @@ export default function InteriorPainting() {
   const interiorProjects = [
     {
       id: 3,
-      before: "/portfolio/Joebefore3.jpg",
-      after: "/portfolio/Joeafter3.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore3",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter3",
       title: "Lake House Interior - Sunroom Transformation",
       location: "Northeast Indiana Lake"
     },
     {
       id: 4,
-      before: "/portfolio/Joebefore4.jpg",
-      after: "/portfolio/Joeafter4.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore4",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter4",
       title: "Lake House Living Space with Detailed Spindle Work",
       location: "Waterfront Property"
     }
@@ -115,7 +115,7 @@ export default function InteriorPainting() {
               <div className="relative">
                 <div className="bg-white rounded-lg shadow-2xl overflow-hidden">
                   <img 
-                    src="/services/interior-spindles.jpg" 
+                    src="https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/services/interior-spindles" 
                     alt="Hand-painted spindles and railings showing meticulous detail work"
                     className="w-full h-[400px] object-cover"
                   />
@@ -181,7 +181,7 @@ export default function InteriorPainting() {
                     BEFORE
                   </div>
                   <img 
-                    src="/portfolio/Joebefore4.jpg" 
+                    src="https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore4" 
                     alt="Interior space before painting"
                     className="w-full h-full object-cover"
                   />
@@ -191,7 +191,7 @@ export default function InteriorPainting() {
                     AFTER
                   </div>
                   <img 
-                    src="/portfolio/Joeafter4.jpg" 
+                    src="https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter4" 
                     alt="Beautiful interior with detailed spindle work"
                     className="w-full h-full object-cover"
                   />

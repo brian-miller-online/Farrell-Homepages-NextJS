@@ -137,7 +137,7 @@ export default function DeckRefinishing() {
               <div className="relative">
                 <div className="bg-white rounded-lg shadow-2xl overflow-hidden">
                   <img 
-                    src="/portfolio/Joeafter1.jpg" 
+                    src="https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter1" 
                     alt="Beautifully refinished deck showing expert craftsmanship"
                     className="w-full h-[400px] object-cover"
                   />
@@ -203,7 +203,7 @@ export default function DeckRefinishing() {
                     BEFORE
                   </div>
                   <img 
-                    src="/portfolio/Joebefore7.jpg" 
+                    src="https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore7" 
                     alt="Weathered, gray deck before refinishing"
                     className="w-full h-full object-cover"
                   />
@@ -213,7 +213,7 @@ export default function DeckRefinishing() {
                     AFTER
                   </div>
                   <img 
-                    src="/portfolio/Joeafter7.jpg" 
+                    src="https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter7" 
                     alt="Beautiful refinished deck with rich stain"
                     className="w-full h-full object-cover"
                   />
@@ -321,7 +321,7 @@ export default function DeckRefinishing() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <img 
-                  src="/portfolio/Joeafter1.jpg" 
+                  src="https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter1" 
                   alt="Close-up of refinished deck showing smooth, even finish"
                   className="rounded-lg shadow-lg w-full"
                 />

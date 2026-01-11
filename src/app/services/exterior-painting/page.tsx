@@ -14,22 +14,22 @@ export default function ExteriorPainting() {
   const exteriorProjects = [
     {
       id: 11,
-      before: "/portfolio/Joebefore11.jpg",
-      after: "/portfolio/Joeafter11.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore11",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter11",
       title: "Complete Exterior Transformation",
       location: "Northeast Indiana"
     },
     {
       id: 6,
-      before: "/portfolio/Joebefore6.jpg",
-      after: "/portfolio/Joeafter6.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore6",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter6",
       title: "Home Exterior Refresh",
       location: "Residential Property"
     },
     {
       id: 5,
-      before: "/portfolio/Joebefore5.jpg",
-      after: "/portfolio/Joeafter5.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore5",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter5",
       title: "Siding & Trim Painting",
       location: "Fort Wayne Area"
     }
@@ -125,7 +125,7 @@ export default function ExteriorPainting() {
               <div className="relative">
                 <div className="bg-white rounded-lg shadow-2xl overflow-hidden">
                   <img 
-                    src="/portfolio/Joeafter11.jpg" 
+                    src="https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter11" 
                     alt="Professionally painted home exterior with crisp lines and even coverage"
                     className="w-full h-[400px] object-cover"
                   />
@@ -191,7 +191,7 @@ export default function ExteriorPainting() {
                     BEFORE
                   </div>
                   <img 
-                    src="/portfolio/Joebefore11.jpg" 
+                    src="https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore11" 
                     alt="Faded exterior paint before professional painting"
                     className="w-full h-full object-cover"
                   />
@@ -201,7 +201,7 @@ export default function ExteriorPainting() {
                     AFTER
                   </div>
                   <img 
-                    src="/portfolio/Joeafter11.jpg" 
+                    src="https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter11" 
                     alt="Fresh, protected exterior after professional painting"
                     className="w-full h-full object-cover"
                   />
@@ -309,7 +309,7 @@ export default function ExteriorPainting() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <img 
-                  src="/portfolio/Joeafter6.jpg" 
+                  src="https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter6" 
                   alt="Clean, professional exterior paint finish with sharp trim lines"
                   className="rounded-lg shadow-lg w-full"
                 />

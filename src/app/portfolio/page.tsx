@@ -13,32 +13,32 @@ const portfolioData = {
   "Lake Houses": [
     {
       id: 3,
-      before: "/portfolio/Joebefore3.jpg",
-      after: "/portfolio/Joeafter3.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore3",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter3",
       title: "Lake House Interior - Sunroom Transformation",
       description: "Fresh white walls and trim with stunning lake views. Perfect for entertaining guests while enjoying the waterfront.",
       location: "Northeast Indiana Lake"
     },
     {
       id: 4,
-      before: "/portfolio/Joebefore4.jpg",
-      after: "/portfolio/Joeafter4.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore4",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter4",
       title: "Lake House Living Space",
       description: "Open concept living area with neutral tones and large windows showcasing the water. Clean, professional finish that lasts.",
       location: "Waterfront Property"
     },
     {
       id: 8,
-      before: "/portfolio/Joebefore8.jpg",
-      after: "/portfolio/Joeafter8.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore8",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter8",
       title: "Lakefront Dock & Deck Railings",
       description: "White and blue paint that stands up to harsh UV rays, high humidity, and freeze-thaw cycles. Built to last on the water.",
       location: "Lake Property"
     },
     {
       id: 10,
-      before: "/portfolio/Joeafter10.jpg",
-      after: "/portfolio/Joeafter10b.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter10",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter10b",
       title: "Lakefront Retaining Wall - White Finish",
       description: "Massive retaining wall transformed from textured concrete to clean white finish. Protects against lake erosion while enhancing curb appeal.",
       location: "Waterfront Property"
@@ -47,40 +47,40 @@ const portfolioData = {
   "Deck Refinishing": [
     {
       id: 1,
-      before: "/portfolio/Joebefore1.jpg",
-      after: "/portfolio/Joeafter1.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore1",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter1",
       title: "Deck Flooring & Railings",
       description: "Rich brown stain on deck flooring with clean, even coverage. Protects wood while enhancing natural beauty.",
       location: "Residential Property"
     },
     {
       id: 5,
-      before: "/portfolio/Joebefore5.jpg",
-      after: "/portfolio/Joeafter5.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore5",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter5",
       title: "Deck Floor & White Railings",
       description: "Weathered deck transformed with fresh stain and crisp white railings. Smooth finish that's built to withstand the elements.",
       location: "Residential Property"
     },
     {
       id: 6,
-      before: "/portfolio/Joebefore6.jpg",
-      after: "/portfolio/Joeafter6.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore6",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter6",
       title: "Lakefront Deck Restoration",
       description: "Peeling paint completely removed and refinished with light, modern colors. Lakefront deck that looks brand new.",
       location: "Lake Property"
     },
     {
       id: 7,
-      before: "/portfolio/Joebefore7.jpg",
-      after: "/portfolio/Joeafter7.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore7",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter7",
       title: "Deck & Railing Renewal",
       description: "From weathered and mildewed to pristine white railings and uniform deck floor. Dramatic transformation that adds value.",
       location: "Residential Property"
     },
     {
       id: 9,
-      before: "/portfolio/Joebefore9.jpg",
-      after: "/portfolio/Joeafter9.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore9",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter9",
       title: "Deck Structure - Gray & White",
       description: "Modern two-tone deck with contrasting gray and white. Clean lines and professional finish on all structural elements.",
       location: "Waterfront Property"
@@ -89,16 +89,16 @@ const portfolioData = {
   "Interior Painting": [
     {
       id: 3,
-      before: "/portfolio/Joebefore3.jpg",
-      after: "/portfolio/Joeafter3.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore3",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter3",
       title: "Lake House Interior - Sunroom Transformation",
       description: "Fresh white walls and trim with stunning lake views. Perfect for entertaining guests while enjoying the waterfront.",
       location: "Northeast Indiana Lake"
     },
     {
       id: 4,
-      before: "/portfolio/Joebefore4.jpg",
-      after: "/portfolio/Joeafter4.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore4",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter4",
       title: "Lake House Living Space",
       description: "Open concept living area with neutral tones and large windows showcasing the water. Clean, professional finish that lasts.",
       location: "Waterfront Property"
@@ -107,24 +107,24 @@ const portfolioData = {
   "Exterior Painting": [
     {
       id: 11,
-      before: "/portfolio/Joebefore11.jpg",
-      after: "/portfolio/Joeafter11.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore11",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter11",
       title: "House Siding & Trim",
       description: "Light blue siding with dark trim creates beautiful contrast. Sharp lines and even coverage that protects your investment.",
       location: "Residential Property"
     },
     {
       id: 12,
-      before: "/portfolio/Joebefore12.jpg",
-      after: "/portfolio/Joeafter12.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore12",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter12",
       title: "Siding & Foundation",
       description: "Worn siding restored to smooth, even finish with painted foundation. Complete exterior transformation.",
       location: "Residential Property"
     },
     {
       id: 13,
-      before: "/portfolio/Joebefore13.jpg",
-      after: "/portfolio/Joeafter13.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore13",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter13",
       title: "Stucco Siding & Chimney",
       description: "Contrasting colors on siding and chimney create curb appeal. Professional finish on stucco and window trim.",
       location: "Residential Property"

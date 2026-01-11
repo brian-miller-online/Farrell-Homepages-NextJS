@@ -13,7 +13,7 @@ export default function Services() {
     {
       id: "lake-house",
       title: "Lake House Painting",
-      image: "/services/lake-house.jpg",
+      image: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/services/lake-house",
       description: "Specialized painting for waterfront properties that face harsh UV rays, high humidity, and freeze-thaw cycles.",
       features: [
         "UV-resistant paint systems",
@@ -27,7 +27,7 @@ export default function Services() {
     {
       id: "deck-refinishing",
       title: "Deck Refinishing & Staining",
-      image: "/services/deck.jpg",
+      image: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/services/deck",
       description: "Transform weathered decks into beautiful outdoor spaces with professional refinishing and staining services.",
       features: [
         "Complete surface preparation",
@@ -41,7 +41,7 @@ export default function Services() {
     {
       id: "exterior",
       title: "Exterior Painting",
-      image: "/services/exterior.jpg",
+      image: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/services/exterior",
       description: "Professional exterior painting that protects your home and enhances curb appeal for years to come.",
       features: [
         "Thorough surface preparation",
@@ -55,7 +55,7 @@ export default function Services() {
     {
       id: "interior",
       title: "Interior Painting",
-      image: "/services/interior-spindles.jpg",
+      image: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/services/interior-spindles",
       description: "Meticulous interior painting with attention to detail that transforms your living spaces.",
       features: [
         "Walls, ceilings, and trim",

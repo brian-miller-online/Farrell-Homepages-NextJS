@@ -132,7 +132,7 @@ export default function LakeHousePainting() {
               <div className="relative">
                 <div className="bg-white rounded-lg shadow-2xl overflow-hidden">
                   <img 
-                    src="/services/lake-house.jpg" 
+                    src="https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/services/lake-house" 
                     alt="Beautiful lake house with professional paint job"
                     className="w-full h-[400px] object-cover"
                   />
@@ -165,7 +165,7 @@ export default function LakeHousePainting() {
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="h-48 overflow-hidden">
                   <img 
-                    src="/problems/uv-damage.jpg" 
+                    src="https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_400/v1/Farrell's%20Painting/problems/uv-damage" 
                     alt="UV damage on deck showing weathered wood"
                     className="w-full h-full object-cover"
                   />
@@ -180,7 +180,7 @@ export default function LakeHousePainting() {
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="h-48 overflow-hidden">
                   <img 
-                    src="/problems/humidity-damage.jpg" 
+                    src="https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_400/v1/Farrell's%20Painting/problems/humidity-damage" 
                     alt="Paint damage from high humidity and moisture"
                     className="w-full h-full object-cover"
                   />
@@ -195,7 +195,7 @@ export default function LakeHousePainting() {
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="h-48 overflow-hidden">
                   <img 
-                    src="/problems/freeze-thaw-damage.jpg" 
+                    src="https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_400/v1/Farrell's%20Painting/problems/freeze-thaw-damage" 
                     alt="Freeze-thaw damage showing cracked and damaged surfaces"
                     className="w-full h-full object-cover"
                   />
@@ -226,7 +226,7 @@ export default function LakeHousePainting() {
                     BEFORE
                   </div>
                   <img 
-                    src="/portfolio/Joebefore9.jpg" 
+                    src="https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore9" 
                     alt="Lake house dock and railings before painting"
                     className="w-full h-full object-cover"
                   />
@@ -236,7 +236,7 @@ export default function LakeHousePainting() {
                     AFTER
                   </div>
                   <img 
-                    src="/portfolio/Joeafter9.jpg" 
+                    src="https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter9" 
                     alt="Lake house dock and railings after professional painting"
                     className="w-full h-full object-cover"
                   />
