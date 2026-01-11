@@ -1,13 +1,15 @@
-"use client";
-
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import QuoteFormModal from '@/components/QuoteFormModal';
-import { useQuoteForm } from "@/context/QuoteFormContext";
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Lake House Painting Specialists | Hamilton Lake, Lake James | Farrell's Painting",
+  description: "Professional lake house painting in Northeast Indiana. Specialists at Hamilton Lake, Lake James, Jimerson Lake. UV-resistant paints, moisture barriers, 5-year warranty. Call (260) 909-0717.",
+};
 
 export default function LakeHousePainting() {
-  const { openQuoteForm } = useQuoteForm();
 
   const lakeHouseProjects = [
     {
@@ -113,9 +115,9 @@ export default function LakeHousePainting() {
                   I've painted 20+ lake houses. I know what works.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
-                <button className="bg-gold text-navy px-8 py-4 rounded-lg font-bold text-lg hover:bg-opacity-90 transition-all shadow-lg" onClick={() => openQuoteForm("Lake House Painting")}>
+                <Link href="/contact" className="bg-gold text-navy px-8 py-4 rounded-lg font-bold text-lg hover:bg-opacity-90 transition-all shadow-lg inline-block">
                   Get Your Free Lake House Quote
-                </button>
+                </Link>
                   <a 
                     href="tel:2609090717"
                     className="flex items-center gap-2 text-white hover:text-gold transition-colors text-lg font-semibold"
@@ -465,9 +467,9 @@ export default function LakeHousePainting() {
             Let's talk about your project. I'll give you an honest assessment, a fair quote, and work that lasts.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="bg-gold text-navy px-8 py-4 rounded-lg font-bold text-lg hover:bg-opacity-90 transition-all" onClick={() => openQuoteForm("Lake House Painting")}>
+            <Link href="/contact" className="bg-gold text-navy px-8 py-4 rounded-lg font-bold text-lg hover:bg-opacity-90 transition-all inline-block">
               Get Your Free Lake House Quote
-            </button>
+            </Link>
             <a 
               href="tel:2609090717"
               className="flex items-center gap-2 text-white hover:text-gold transition-colors text-lg font-semibold"

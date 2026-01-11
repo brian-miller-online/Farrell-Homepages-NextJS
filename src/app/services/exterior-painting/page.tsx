@@ -1,13 +1,15 @@
-"use client";
-
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import QuoteFormModal from '@/components/QuoteFormModal';
-import { useQuoteForm } from "@/context/QuoteFormContext";
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Exterior House Painting Fort Wayne | 5-Year Warranty | Farrell's Painting",
+  description: "Professional exterior house painting in Fort Wayne and Northeast Indiana. Premium Sherwin-Williams paints, thorough prep work, and a 5-year workmanship warranty. Call (260) 909-0717.",
+};
 
 export default function ExteriorPainting() {
-  const { openQuoteForm } = useQuoteForm();
 
   const exteriorProjects = [
     {
@@ -106,9 +108,9 @@ export default function ExteriorPainting() {
                   I've painted 200+ homes. I know what lasts.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
-                  <button className="bg-gold text-navy px-8 py-4 rounded-lg font-bold text-lg hover:bg-opacity-90 transition-all shadow-lg" onClick={() => openQuoteForm("Exterior Painting")}>
+                  <Link href="/contact" className="bg-gold text-navy px-8 py-4 rounded-lg font-bold text-lg hover:bg-opacity-90 transition-all shadow-lg inline-block">
                     Get Your Free Exterior Quote
-                  </button>
+                  </Link>
                   <a 
                     href="tel:2609090717"
                     className="flex items-center gap-2 text-white hover:text-gold transition-colors text-lg font-semibold"
@@ -433,9 +435,9 @@ export default function ExteriorPainting() {
             Let's talk about your project. I'll give you an honest assessment, a fair quote, and work that lasts.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="bg-gold text-navy px-8 py-4 rounded-lg font-bold text-lg hover:bg-opacity-90 transition-all" onClick={() => openQuoteForm("Exterior Painting")}>
+            <Link href="/contact" className="bg-gold text-navy px-8 py-4 rounded-lg font-bold text-lg hover:bg-opacity-90 transition-all inline-block">
               Get Your Free Exterior Quote
-            </button>
+            </Link>
             <a 
               href="tel:2609090717"
               className="flex items-center gap-2 text-white hover:text-gold transition-colors text-lg font-semibold"

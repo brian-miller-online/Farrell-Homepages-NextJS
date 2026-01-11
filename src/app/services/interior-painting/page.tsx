@@ -1,13 +1,15 @@
-"use client";
-
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import QuoteFormModal from '@/components/QuoteFormModal';
-import { useQuoteForm } from "@/context/QuoteFormContext";
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Interior House Painting Fort Wayne | Clean, Precise Work | Farrell's Painting",
+  description: "Professional interior painting in Fort Wayne and Northeast Indiana. Clean, precise work with premium paints. 5-year workmanship warranty. Call (260) 909-0717.",
+};
 
 export default function InteriorPainting() {
-  const { openQuoteForm } = useQuoteForm();
 
   const interiorProjects = [
     {
@@ -96,9 +98,9 @@ export default function InteriorPainting() {
                   I take the time to do it right—every spindle, every corner, every edge.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
-                <button className="bg-gold text-navy px-8 py-4 rounded-lg font-bold text-lg hover:bg-opacity-90 transition-all shadow-lg" onClick={() => openQuoteForm("Interior Painting")}>
+                <Link href="/contact" className="bg-gold text-navy px-8 py-4 rounded-lg font-bold text-lg hover:bg-opacity-90 transition-all shadow-lg inline-block">
                   Get Your Free Interior Quote
-                </button>
+                </Link>
                   <a 
                     href="tel:2609090717"
                     className="flex items-center gap-2 text-white hover:text-gold transition-colors text-lg font-semibold"
@@ -390,9 +392,9 @@ export default function InteriorPainting() {
             Let's talk about your project. I'll give you an honest assessment, a fair quote, and work that lasts.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="bg-gold text-navy px-8 py-4 rounded-lg font-bold text-lg hover:bg-opacity-90 transition-all" onClick={() => openQuoteForm("Interior Painting")}>
+            <Link href="/contact" className="bg-gold text-navy px-8 py-4 rounded-lg font-bold text-lg hover:bg-opacity-90 transition-all inline-block">
               Get Your Free Interior Quote
-            </button>
+            </Link>
             <a 
               href="tel:2609090717"
               className="flex items-center gap-2 text-white hover:text-gold transition-colors text-lg font-semibold"
