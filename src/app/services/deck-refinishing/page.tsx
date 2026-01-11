@@ -60,36 +60,36 @@ export default function DeckRefinishing() {
   const deckProjects = [
     {
       id: 1,
-      before: "/portfolio/Joebefore1.jpg",
-      after: "/portfolio/Joeafter1.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore1",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter1",
       title: "Deck Refinishing - Complete Transformation",
       location: "Northeast Indiana"
     },
     {
       id: 7,
-      before: "/portfolio/Joebefore7.jpg",
-      after: "/portfolio/Joeafter7.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore7",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter7",
       title: "Weathered Deck Restoration",
       location: "Residential Property"
     },
     {
       id: 8,
-      before: "/portfolio/Joebefore8.jpg",
-      after: "/portfolio/Joeafter8.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore8",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter8",
       title: "Deck Staining & Sealing",
       location: "Lake House Property"
     },
     {
       id: 12,
-      before: "/portfolio/Joebefore12.jpg",
-      after: "/portfolio/Joeafter12.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore12",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter12",
       title: "Deck Railing & Surface Refinishing",
       location: "Waterfront Deck"
     },
     {
       id: 13,
-      before: "/portfolio/Joebefore13.jpg",
-      after: "/portfolio/Joeafter13.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore13",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter13",
       title: "Complete Deck Makeover",
       location: "Residential Property"
     }

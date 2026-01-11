@@ -14,29 +14,29 @@ export default function LakeHousePainting() {
   const lakeHouseProjects = [
     {
       id: 3,
-      before: "/portfolio/Joebefore3.jpg",
-      after: "/portfolio/Joeafter3.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore3",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter3",
       title: "Lake House Interior - Sunroom Transformation",
       location: "Northeast Indiana Lake"
     },
     {
       id: 4,
-      before: "/portfolio/Joebefore4.jpg",
-      after: "/portfolio/Joeafter4.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore4",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter4",
       title: "Lake House Living Space",
       location: "Waterfront Property"
     },
     {
       id: 9,
-      before: "/portfolio/Joebefore9.jpg",
-      after: "/portfolio/Joeafter9.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joebefore9",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter9",
       title: "Lakefront Dock & Deck Railings",
       location: "Lake Property"
     },
     {
       id: 10,
-      before: "/portfolio/Joeafter10.jpg",
-      after: "/portfolio/Joeafter10b.jpg",
+      before: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter10",
+      after: "https://res.cloudinary.com/dlnb17xz7/image/upload/f_auto,q_auto,w_600/v1/Farrell's%20Painting/portfolio/Joeafter10b",
       title: "Lakefront Retaining Wall - White Finish",
       location: "Waterfront Property"
     }
