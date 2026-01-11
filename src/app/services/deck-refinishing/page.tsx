@@ -5,7 +5,7 @@ import QuoteFormModal from '@/components/QuoteFormModal';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Deck Staining & Refinishing Fort Wayne | Farrell's Painting",
+  title: "Deck Staining & Refinishing Fort Wayne",
   description: "Professional deck staining and refinishing in Fort Wayne and Northeast Indiana. Restore and protect your deck with quality stains. Call (260) 909-0717.",
 };
 

@@ -5,7 +5,7 @@ import QuoteFormModal from '@/components/QuoteFormModal';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Hamilton Lake House Painting | Steuben County IN | Farrell's Painting",
+  title: "Hamilton Lake House Painting | Steuben County IN",
   description: "Professional lake house painting at Hamilton Lake, Indiana. Exterior painting, deck staining, and interior painting for waterfront homes. 5-year warranty. Call (260) 909-0717.",
 };
 

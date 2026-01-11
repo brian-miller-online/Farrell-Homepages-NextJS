@@ -5,7 +5,7 @@ import QuoteFormModal from '@/components/QuoteFormModal';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Jimerson Lake House Painting | Farrell's Painting | Steuben County IN",
+  title: "Jimerson Lake House Painting | Steuben County IN",
   description: "Professional lake house painting at Jimerson Lake, Indiana. Exterior painting, deck staining, and interior painting for waterfront homes. 5-year warranty. Call (260) 909-0717.",
 };
 

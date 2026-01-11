@@ -5,7 +5,7 @@ import QuoteFormModal from '@/components/QuoteFormModal';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Service Areas | Farrell's Painting | Northeast Indiana",
+  title: "Service Areas | Northeast Indiana",
   description: "Farrell's Painting serves Northeast Indiana, Northwest Ohio, and Southern Michigan. Lake house specialists at Hamilton Lake, Lake James, and more. Call (260) 909-0717.",
 };
 

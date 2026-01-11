@@ -5,7 +5,7 @@ import QuoteFormModal from '@/components/QuoteFormModal';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "House Painting Fort Wayne IN | Farrell's Painting | 5-Year Warranty",
+  title: "House Painting Fort Wayne IN | 5-Year Warranty",
   description: "Professional house painting in Fort Wayne, Indiana. Exterior and interior painting with 5-year warranty. Owner-operated quality. Call (260) 909-0717.",
 };
 

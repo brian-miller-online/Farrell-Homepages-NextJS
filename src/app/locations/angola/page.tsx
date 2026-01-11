@@ -5,7 +5,7 @@ import QuoteFormModal from '@/components/QuoteFormModal';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "House Painting Angola IN | Farrell's Painting | Steuben County",
+  title: "House Painting Angola IN | Steuben County",
   description: "Professional house painting in Angola, Indiana. Exterior and interior painting with 5-year warranty. Serving Steuben County and the lakes region. Call (260) 909-0717.",
 };
 

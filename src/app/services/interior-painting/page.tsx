@@ -5,7 +5,7 @@ import QuoteFormModal from '@/components/QuoteFormModal';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Interior House Painting Fort Wayne | Clean, Precise Work | Farrell's Painting",
+  title: "Interior House Painting Fort Wayne | Clean, Precise Work",
   description: "Professional interior painting in Fort Wayne and Northeast Indiana. Clean, precise work with premium paints. 5-year workmanship warranty. Call (260) 909-0717.",
 };
 

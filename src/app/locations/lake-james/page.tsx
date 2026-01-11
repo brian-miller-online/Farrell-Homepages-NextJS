@@ -5,7 +5,7 @@ import QuoteFormModal from '@/components/QuoteFormModal';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Lake James House Painting | Farrell's Painting | Angola IN",
+  title: "Lake James House Painting | Angola IN",
   description: "Professional lake house painting at Lake James, Indiana. Exterior painting, deck staining, and interior painting for waterfront homes. 5-year warranty. Call (260) 909-0717.",
 };
 

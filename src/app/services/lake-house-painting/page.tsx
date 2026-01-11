@@ -5,7 +5,7 @@ import QuoteFormModal from '@/components/QuoteFormModal';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Lake House Painting Specialists | Hamilton Lake, Lake James | Farrell's Painting",
+  title: "Lake House Painting Specialists | Hamilton Lake, Lake James",
   description: "Professional lake house painting in Northeast Indiana. Specialists at Hamilton Lake, Lake James, Jimerson Lake. UV-resistant paints, moisture barriers, 5-year warranty. Call (260) 909-0717.",
 };
 
