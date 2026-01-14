@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Source_Sans_3, Libre_Baskerville } from "next/font/google";
 import "./globals.css";
 import { QuoteFormProvider } from "@/context/QuoteFormContext";
+import CanonicalURL from "@/components/CanonicalURL";
 
 const sourceSans = Source_Sans_3({
   subsets: ["latin"],
@@ -81,6 +82,7 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://res.cloudinary.com" />
       </head>
       <body className="font-sans antialiased bg-warm-white text-foreground">
+        <CanonicalURL />
         <QuoteFormProvider>
           {children}
         </QuoteFormProvider>
